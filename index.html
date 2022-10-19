@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Workshop1 - week3 - HTML5 formulier</title>
+</head>
+<body>
+    <div id="conainer">
+        <form action="doelbestand.php" method="get">
+         Voornaam: <input type="text" name="vnaam" placeholder="Voornaam"/><br/>    
+            Achternaam : <input type="text" name="anaam" placeholder="Achternaam" /><br> 
+           Geboortedatum <input type="date" name="datum" placeholder="Jouw geboortedatum" /><br>
+            <input type="daytime-local" />
+            <input type="time" />
+            <input type="week" />
+            <input type="month" />
+            <input type="country" type="text" name="country" size="40" list="countries" />
+            <datalist id="countries">
+                <option value="Australia">
+                <option value="Canada">
+                <option value="Germany">
+                <option value="France">
+                <option value="Australia">
+                <option value="United Kingdom">
+                <option value="United States">
+            </datalist>
+           <input type="number">
+           
+           <input type="submit" />
+         </form>
+    </div>
+</body>
+</html>
